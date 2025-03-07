@@ -22,7 +22,7 @@ const NotFound = () => {
                 Oops! This page seems to be missing.
               </p>
               <p className="text-sm text-muted-foreground/80 animate-fade-in-up delay-100">
-                Prism couldn't find the page you were looking for.
+                We couldn't find the page you were looking for.
               </p>
             </div>
 
