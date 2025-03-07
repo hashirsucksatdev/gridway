@@ -7,7 +7,7 @@
 # ---------------------------------
 # General Configuration
 # ---------------------------------
-name = "Prism" # Website/dashboard name
+name = "Gridway" # Website/dashboard name
 auto_update = false # Automatically update Prism on boot
 
 # ---------------------------------
@@ -78,16 +78,16 @@ accountSwitcher = true
 # Package Configuration
 # ---------------------------------
 [api.client.packages.list.default]
-ram = 4_096
-disk = 20_480
-cpu = 150
+ram = 6240
+disk = 20480
+cpu = 200
 servers = 2
 
 # -----------------------------------------------------
 # Location Configuration
 # -----------------------------------------------------
 [api.client.locations.1]
-name = "Example Location"
+name = "Brazil"
 
 # ---------------------------------
 # Egg Configuration
@@ -127,13 +127,13 @@ enabled = true
     enabled = true
 
       [api.client.coins.store.ram]
-      cost = 775
+      cost = 7775
 
       [api.client.coins.store.disk]
-      cost = 400
+      cost = 4000
 
       [api.client.coins.store.cpu]
-      cost = 650
+      cost = 6050
 
       [api.client.coins.store.servers]
       cost = 300
